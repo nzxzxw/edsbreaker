@@ -36,7 +36,7 @@ EDSbreaker will iterate through all .eds files in the host directory and generat
 # v1.5.2
 
 Notes:
-- First version for public release.
+- First version made public to Thermo Fisher Scientific employees.
 - Performs cleanup, and does not leave behind zipfiles or unzipped contents.
 - The 'ext' folder is a temporary folder generated in the host directory which houses the zipfiles and unzipped folders required to parse .eds datafiles. EDSbreaker should automatically delete this folder prior to termination of the program. If a software glitch leads to the retention of the 'ext' folder, please manually delete this folder.
 - The process of file copying and unzipping can be cumbersome and resource-intensive. The software may be more prone to errors when iterating through large batches of QS12K files.
